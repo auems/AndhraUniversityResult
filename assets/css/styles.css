@@ -1,0 +1,168 @@
+/* ==========================================================================
+   Andhra University Examination Computerization System - Replica Styles
+   Design faithfully copied from auems.online / result.php frontend
+   ========================================================================== */
+html, body{height:100%;}
+body{font-size:13px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:'Open Sans', arial,sans-serif;background-color:#f2f2f2;}
+.wrapper{min-height:100%;margin-bottom:-244px;}
+.wrapper:after{content:"";display:block;height:244px;}
+.footer{height:244px;}
+h1, h2, h3, h4, h5, h6{font-family:'Open Sans', arial,sans-serif;font-weight:300;color:#276aaa;}
+p{color:#555555;font-size:16px;font-weight:400;}
+a{color:#276aaa;}
+a:hover{text-decoration:none;color:#365d7e;}
+a:focus{text-decoration:none;}
+
+/* buttons */
+.btn{-webkit-transition:all 0.4s ease-in-out;-moz-transition:all 0.4s ease-in-out;-ms-transition:all 0.4s ease-in-out;-o-transition:all 0.4s ease-in-out;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+.btn .fa{color:#fff;margin-right:5px;}
+.btn .fa.fa-search{margin-right:0;}
+.btn-theme{background:#276aaa;border:1px solid #276aaa;color:#fff;}
+.btn-theme:hover{background:#5b9ede;border:1px solid #5b9ede;color:#fff;}
+
+/* form controls */
+.form-control{-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;}
+.form-control:focus{border-color:#276aaa;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+
+/* top scroll control */
+#topcontrol{background:#84aac9;color:#fff;text-align:center;display:inline-block;width:35px;height:35px;border:none;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;-o-border-radius:2px;border-radius:2px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;-webkit-transition:all 0.4s ease-in-out;-moz-transition:all 0.4s ease-in-out;-ms-transition:all 0.4s ease-in-out;-o-transition:all 0.4s ease-in-out;}
+#topcontrol:hover{background:#276aaa;}
+#topcontrol .fa{position:relative;top:3px;font-size:25px;}
+
+/* panels */
+.panel{table-layout:fixed;}
+.panel{-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;padding:1% 2%;border:0;box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
+.panel .panel-heading{-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;}
+.panel .panel-heading h3.panel-title{font-weight:500;}
+.panel-theme{border-color:#276aaa;}
+.panel-theme>.panel-heading, .panel-theme>.panel-footer{color:#fff;background:#276aaa;border-color:#276aaa;}
+
+/* header */
+.header{background:#276aaa;}
+.header .header-main{padding:10px 0;}
+.header h1.logo{margin-top:0;margin-bottom:0;}
+.header h1.logo a span{position:relative;top:5px;color:#fff;}
+.header h1.logo a span small{font-size:2rem;color:#eee;}
+.header .menu-top{list-style:none;margin:0;padding:0;text-align:right;float:right;}
+.header .menu-top li{list-style:none;float:left;font-size:11px;font-family:'Open Sans', arial,sans-serif;}
+.header .menu-top li:last-child a{padding-right:0;}
+.header .menu-top li.divider a{border-right:1px dotted #fff;}
+.header .menu-top li a{display:inline-block;color:#dedede;font-size:14px;padding:0px 15px;}
+.header .menu-top li a:hover{color:#fff;}
+
+/* main navigation */
+.main-nav{background:#fff;padding:10px 0 0 0;margin-bottom:5px;box-shadow:0px 1px 4px rgba(0, 0, 0, 0.3);}
+.main-nav button{background:#276aaa;color:#fff !important;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0;}
+.main-nav button:focus{outline:none;}
+.main-nav button .icon-bar{background-color:#fff;}
+.main-nav .navbar-collapse{padding:0;}
+.main-nav .nav .nav-item{font-weight:600;text-transform:uppercase;font-family:'Open Sans', arial,sans-serif;z-index:100;}
+.main-nav .nav .nav-item a{color:#555555;margin:5px 1px 0 1px;}
+.main-nav .nav .nav-item a:hover{background:#276aaa;color:#fff;}
+.main-nav .nav .nav-item.active{position:relative;}
+.main-nav .nav .nav-item.active>a{background:#276aaa;color:#fff;}
+.main-nav .nav .nav-item.active>a:before{content:"\f0d7";position:absolute;bottom:-14px;color:#276aaa;left:0;text-align:center;font-family:FontAwesome;display:block;font-size:35px;width:100%;left:0;}
+.main-nav .nav .nav-item .dropdown-menu{-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;margin:0;border:none;padding:0;text-transform:none;min-width:220px;}
+.main-nav .nav .nav-item .dropdown-menu a{border-bottom:1px solid #3e6a8f;padding:8px 20px;}
+.main-nav .nav .nav-item .dropdown-menu a:hover{background:#3e6a8f;color:#fff;padding-left:24px;}
+.nav>li>a{padding:10px;min-width:75px;text-align:center;}
+
+/* footer */
+.footer{background:#fff;color:#000;box-shadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
+.footer p{color:#222;font-size:13px;}
+.footer .bottom-bar{background:#4a4a4a;padding:5px 0;}
+.footer .bottom-bar .copyright{font-size:11px;color:#fff;line-height:3;}
+.footer .bottom-bar .copyright a:hover{color:#eee;}
+
+/* section */
+section{background:transparent;overflow:hidden;margin-bottom:30px;padding:0% 1%;}
+.section-content{padding:15px;padding-top:0;}
+
+/* ---------- login form (result) module ---------- */
+.loginform{padding:0;padding-bottom:2%;background:#fff;box-shadow:0 4px 23px 5px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.15);}
+.shadow{box-shadow:0 4px 23px 5px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0, 0, 0, 0.15);background-color:#fff;}
+.loginform label{color:#555555;font-weight:600;font-size:1.2em;}
+.loginform h3{color:#276aaa;}
+.loginform input[type=submit]{margin-right:3%;float:right;}
+.form-group{border-left:2px solid #f9f9f9;padding:2% 5%;margin-bottom:0;}
+.focused{border:2px solid #e9e9e9;border-left:2px solid #276aaa !important;background:#E9e9e9;}
+.focused label{color:#276aaa;}
+
+/* preloader */
+#preloader{position:fixed;top:0;left:0;width:100%;height:100%;background-color:#f9f9f9;z-index:10000;}
+#status{width:30px;height:30px;position:absolute;left:50%;top:50%;margin:-15px 0 0 -15px;font-size:32px;}
+
+/* responsive */
+@media (max-width:767px){
+  .wrapper{min-height:inherit;margin-bottom:0;}
+  .wrapper:after{content:none;}
+  .footer{height:auto;}
+  .pull-right, .pull-left{float:none !important;}
+  .logo{text-align:center;}
+  .header .menu-top{text-align:center;margin-top:10px;}
+  .header .menu-top li{float:none;display:inline-block;}
+  .main-nav .navbar-collapse{padding-left:15px;padding-right:15px;border-top:0;-webkit-box-shadow:0;-moz-box-shadow:0;box-shadow:0;}
+  .navbar-nav{margin-top:0;}
+  .main-nav .nav .nav-item.active>a:before{content:none;}
+}
+@media (min-width:768px){
+  .wrapper{min-height:inherit;margin-bottom:0;}
+  .wrapper:after{content:none;}
+  .footer{height:auto;}
+}
+@media (min-width:992px){
+  .wrapper{min-height:100%;margin-bottom:-54px;}
+  .wrapper:after{content:"";display:block;height:220px;}
+  .footer{height:54px;}
+}
+
+/* ---------- Form error (validation messages) ---------- */
+.form-error{
+  margin:10px 5%;
+  padding:10px 14px;
+  border:1px solid #e74c3c;
+  background:#fdf3f2;
+  color:#c0392b;
+  font-size:14px;
+  display:none;
+  border-radius:0;
+}
+
+/* ---------- Result sheet display ---------- */
+.result-sheet{text-align:center;padding:10px 0;}
+.result-sheet img{
+  max-width:100%;
+  height:auto;
+  border:1px solid #e0e0e0;
+  box-shadow:0 2px 8px rgba(0,0,0,0.12);
+  margin-bottom:15px;
+}
+.result-actions{
+  margin-top:15px;
+  padding-top:10px;
+  border-top:1px solid #eee;
+}
+.result-actions .btn{margin:4px;}
+
+/* ---------- "Not found" message ---------- */
+.result-not-found{
+  text-align:center;
+  padding:30px 10px;
+}
+.result-not-found h4{
+  margin-top:12px;
+  font-size:18px;
+}
+.result-not-found p{
+  font-size:15px;
+  color:#777;
+}
+.result-not-found .btn{margin-top:10px;}
+
+/* ---------- Print styles (hide header/footer when printing) ---------- */
+@media print{
+  .header, .footer, .main-nav, .result-actions{display:none !important;}
+  .wrapper{min-height:auto; margin-bottom:0;}
+  .wrapper:after{content:none;}
+  .panel{box-shadow:none;}
+}

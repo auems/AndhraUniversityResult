@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Result - Andhra University Examination Computerization System</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/logo_ico.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status"><i class="fa fa-spinner fa-spin"></i></div>
+    </div>
+
+    <div class="wrapper">
+
+        <!-- ========== HEADER ========== -->
+        <header class="header" style="margin-bottom:15px;">
+            <div class="header-main container">
+                <h1 class="logo col-md-6 col-sm-12">
+                    <a href="index.html">
+                        <img id="logo" src="assets/img/aucoe_logo.png" alt="Logo" width="360" height="103">
+                    </a>
+                </h1>
+                <div class="logo col-md-3 col-sm-12" style="margin-top: 20px;">
+                    <img src="assets/img/logo_ems.png" alt="au_ems" width="200" height="66">
+                </div>
+                <div class="info col-md-3 col-sm-12" style="margin-top: 25px;">
+                    <ul class="menu-top navbar-right hidden-xs">
+                        <li class="divider" style="color: white;padding-top: 15px;font-size:15px">
+                            <i class="fa fa-envelope" style="color: white;"></i> <a href="mailto:coe@andhrauniversity.edu.in" style="display:inline;padding:0;">coe@andhrauniversity.edu.in</a>
+                        </li>
+                        <li class="divider" style="color: white;padding-top: 15px;font-size:15px">
+                            <i class="fa fa-phone" style="color: white;"></i> 0891 - 284 4000
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- ========== MAIN NAVIGATION ========== -->
+            <nav class="main-nav" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse" id="navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item"><a href="index.html" title="Home"><i class="fa fa-home"></i></a></li>
+                            <li class="nav-item"><a href="#">Services</a></li>
+                            <li class="active nav-item"><a href="index.html">results</a></li>
+                            <li class="nav-item"><a href="#">pg login</a></li>
+                            <li class="nav-item"><a href="#">ug login</a></li>
+                            <li class="nav-item"><a href="#">Revaluation</a></li>
+                            <li class="nav-item"><a href="#">Challan Payment</a></li>
+                            <li class="nav-item"><a href="#">Tution Fee Payment</a></li>
+                            <li class="nav-item"><a href="#">contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- ========== CONTENT / RESULT MODULE ========== -->
+        <div class="content container">
+            <div class="col-md-offset-3 col-md-6">
+                <div class="panel loginform">
+                    <div class="panel-heading">
+                        <h4 style="word-wrap: break-word;">Result</h4>
+                    </div>
+                    <div class="panel-body" style="padding:15px;">
+                        <div id="resultLoading" class="text-center" style="padding:25px;">
+                            <i class="fa fa-spinner fa-spin"></i> Loading result...
+                        </div>
+                        <div id="resultImage" class="result-sheet" style="display:none;"></div>
+                        <div id="resultNotFound" class="result-not-found" style="display:none;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--//wrapper-->
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="bottom-bar">
+            <div class="container">
+                <div class="row">
+                    <p class="copyright col-md-12 col-sm-12 col-xs-12" style="text-align:center">
+                        Designed, Developed &amp; Maintained by <a href="http://andhrauniversity.edu.in">AU Computer Centre</a>, Andhra University | Copyright &copy; 2026 - All Rights Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== SCRIPTS ========== -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/back-to-top.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/result.js"></script>
+</body>
+</html>
